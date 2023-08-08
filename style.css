@@ -1,0 +1,52 @@
+/* Reset some default styles */
+body,
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f4f5f7;
+  color: #333;
+  line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+button {
+  background-color: #001f3f; /* Navy blue */
+  color: #ffffff;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 10px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #003366; /* A slightly lighter navy blue for hover effect */
+}
+
+button:focus {
+  outline: none;
+  box-shadow: 0 0 10px rgba(0, 31, 63, 0.5); /* A subtle glow when the button is focused */
+}
+
+/* If you have titles or other elements in the future, consider adding styles like these */
+h1,
+h2,
+h3 {
+  color: #001f3f; /* Navy blue */
+  margin-bottom: 20px;
+}
+
+/* Additional styles for spacing, alignment, and other visual elements can be added as needed. */
